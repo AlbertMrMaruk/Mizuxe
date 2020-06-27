@@ -1,0 +1,41 @@
+@import "./bootstrap.scss";
+.navbar {
+  box-shadow: 0 0 5px 0 #3292a6;
+  background-color: white;
+  opacity: 0.85;
+}
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.5rem;
+}
+#home {
+  margin-top: 105px;
+  background: url("../img/mountains.jpg");
+  background-attachment: fixed;
+  // min-height: 700px;
+  box-shadow: 0 0 0 2000px inset rgba(#3292a6, 0.8);
+}
+#show-text {
+  padding: 77.5px 0;
+}
+.info-header {
+  width: 55%;
+  margin: auto;
+}
+#meet {
+  img {
+    margin-top: -50px;
+  }
+  .card:hover {
+    background-color: $primary;
+    color: white;
+  }
+  .fab {
+    color: white;
+  }
+}
+@media (max-width: 768px) {
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
